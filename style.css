@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    box-shadow: 0 0 10px 0;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.container img{
+    width: 600px;
+    border-radius: 12px;
+}
+
+.cBox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(143, 141, 141, 0.532);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.cBox textarea{
+    height: 65px;
+    resize: none;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cBox button{
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 18px;
+}
+
+.cBox button:hover{
+    cursor: pointer;
+    background-color: rgb(238, 238, 38);
+}
+
+.comments{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    scrollbar-color: gray white;
+    scrollbar-width: thin;
+}
+
+.be{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.comments h2{
+    color: rgba(128, 128, 128, 0.497);
+}
+
+.comment{
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.comment h3{
+    color: gray;
+}
+
+.comment p{
+    font-size: 15px;
+}

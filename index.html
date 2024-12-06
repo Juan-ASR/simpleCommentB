@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2>BMW M4 CSL</h2>
+            <img src="./img1.jpg" alt="BMW M4 CSL">
+
+            <form class="cBox" onsubmit="sendC(event)">
+                <h2>Comments</h2>
+
+                <textarea id="txt1" placeholder="Enter your comment" required></textarea>
+
+                <button type="submit" id="sBtn">Comment</button>
+
+                <div class="comments" id="comments">
+                    <div class="be" id="be">
+                        <h2>Be the first to comment!</h2>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
