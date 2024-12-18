@@ -71,7 +71,7 @@ button{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    /* gap: 15px; */
     overflow-x: hidden;
     overflow-y: scroll;
     height: 200px;
@@ -87,6 +87,20 @@ button{
     flex-direction: column;
     gap: 10px;
     border-radius: 15px;
+}
+
+.comment.comment-deleted {
+    display: none;
+    padding: 0;
+}
+
+/* .comment.comment-deleted .c-info{
+    text-decoration: line-through;
+    background-color: rgba(255, 255, 255, 0.599);
+} */
+
+.comment.comment-reported .c-info{
+    background-color: darkred;
 }
 
 .comment-h{
@@ -179,7 +193,7 @@ button{
 }
 
 .comment p{
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .comment-r{
